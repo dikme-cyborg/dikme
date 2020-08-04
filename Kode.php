@@ -58,7 +58,7 @@ ulang:
 echo "\n";
 echo "\e[96m            (Halo Apa Kabarmu $input)               \n";
 echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-// function change(){
+// function change() {
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
         echo color("yellow","📲▶️ Nomor : ");
